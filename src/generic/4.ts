@@ -2,7 +2,9 @@
   Використовуйте generics та інтерфейси, щоб виправити помилку в наступних класах:
 */
 
-type Props = {};
+type Props = {
+  title: string;
+};
 
 class Component<T extends Props> {
   constructor(public props: T) {}

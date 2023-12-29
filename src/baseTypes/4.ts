@@ -3,7 +3,7 @@
   щоб гарантувати, що перший елемент завжди буде рядком, а другий числом?
 */
 
-let perso: (string | number)[] = ["Max", 21];
-// let perso: [string, number] = ["Max", 21]; ?
+// let perso: (string | number)[] = ["Max", 21];
+let perso: [string, number] = ["Max", 21];
 
 export {};
